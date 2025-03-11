@@ -1,1 +1,41 @@
-WIP
+1.The volatility of the selected stocks. 
+	The stocks I selected are my personal top holdings(for stocks) in my investment portfolio. It is interesting, but definitely not surprising, to see that these stocks are very volatile even when compared to stocks like TSLA. 
+RESULTS:
+ Ticker  Implied_Volatility
+4   RIVN            0.725781
+8   CVNA            0.697050
+7    VRT            0.678450
+6   TSLA            0.670900
+9   ASML            0.452221
+0    CRM            0.362874
+3     BA            0.330700
+5    LLY            0.312258
+1   META            0.307668
+2   BKNG            0.257138
+
+
+2.The performance of the Bollinger Bands strategy for each stock. 
+VRT:
+Final Cumulative Strategy Return: 1.66
+Final Cumulative Market Return: 1.24
+RIVN:
+Final Cumulative Strategy Return: 0.86
+Final Cumulative Market Return: 0.85
+CVNA:
+Final Cumulative Strategy Return: 1.22
+Final Cumulative Market Return: 2.21
+TSLA:
+Final Cumulative Strategy Return: 1.20
+Final Cumulative Market Return: 1.30
+ASML:
+Final Cumulative Strategy Return: 1.10
+Final Cumulative Market Return: 0.71
+VRT had the best performance, this suggests that price movements in VRT were more predictable based on Bollinger Bands.
+RIVN had nearly identical strategy and market returns, meaning the strategy neither added nor detracted value significantly.
+
+
+TSLA also underperformed, with the strategy return (1.20) being worse then the market (1.30), showing that Bollinger Bands didn’t work well in this case.
+3.Any observations or insights from the Visualization(s)
+Stocks with higher implied volatility (RIVN, CVNA, VRT) had wider Bollinger Bands, which means frequent and large price swings.
+The Bollinger Bands strategy worked best when the stock had a more predictable price pattern (like VRT and ASML) but not so much in stocks with random movements (CVNA and TSLA).
+The strategy had mixed success, so it can’t be relied on a lot, at least for volatile stocks
